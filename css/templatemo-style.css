@@ -52,7 +52,7 @@ h2 { font-size: 2.2rem; }
 }
 
 .tm-site-name {
-	color: #cc9900;
+	color: rgb(19, 50, 150);
 	display: block;
 	font-size: 2.6rem;
 	font-weight: 400;
@@ -70,36 +70,44 @@ h2 { font-size: 2.2rem; }
 .nav-link:hover,
 .nav-link:focus {
 	color: white;
-	background-color: #cc9900;
+	background-color: rgb(19, 50, 150);
 
 }
 
-.tm-gold-text { color: #cc9900; }
-
+.tm-gold-text { color: rgb(19, 50, 150); }
+.tm-gold-footer-text { color: rgb(148, 150, 19); }
 .tm-section {
 	padding-top: 80px;
 	padding-bottom: 100px;
 }
 
 .tm-home-img-container {
-	background-image: url('../img/tm-home-img.jpg');
+	background-image: url('../img/Infosec\ Blog.png');
 	background-size: auto;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 500px;
 }
 
-.tm-about-img-container { background-image: url('../img/tm-about-img.jpg');	}
-.tm-blog-img-container { background-image: url('../img/tm-blog-img.jpg'); }
-.tm-contact-img-container { background-image: url('../img/tm-contact-img.jpg'); }
-
-.tm-about-img-container,
-.tm-blog-img-container,
-.tm-contact-img-container {
-	background-size: auto 200px;
+.tm-about-img-container{background-image: url('../img/aboutme.jpg');}
+.tm-blog-img-container { background-image: url('../img/Infosec\ Blog.png'); }
+.tm-contact-img-container { 
+	background-image: url('../img/contactus.jpg'); 
+	background-size: auto ;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 200px;
+	background-color: goldenrod;
+	height: 300px;
+}
+
+.tm-about-img-container,
+.tm-blog-img-container
+ {
+background-size: auto 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: goldenrod;
+	height: 500px;
 }
 
 .tm-title {
@@ -126,7 +134,7 @@ h4 {
 
 .tm-btn {
 	color: white;
-	background-color: #cc9900;
+	background-color: rgb(19, 50, 150);;
 	border: none;
 	border-radius: 5px;
 	display: inline-block;
@@ -147,7 +155,8 @@ h4 {
 }
 
 .tm-margin-b-15 { margin-bottom: 15px; }
-.tm-margin-b-20 { margin-bottom: 20px; text-align: justify;}
+.tm-margin-b-21 { margin-bottom: 10px; text-align: justify; height: 200px; width:300px;}
+.tm-margin-b-20 { margin-bottom: 10px; text-align: justify; }
 .tm-margin-b-30 { margin-bottom: 30px; }
 .tm-margin-b-40 { margin-bottom: 40px; }
 .tm-margin-t-big { margin-top: 90px; }
@@ -176,7 +185,7 @@ h4 {
 .tm-footer {
 	color: #c6c6c6;
 	background-color: #191919;
-	background-image: url('../img/classic-pattern-bg.png');
+
 	font-size: 1rem;
 	padding-top: 40px;
 	padding-bottom: 20px;
@@ -222,7 +231,7 @@ p { line-height: 1.9; }
 	padding: 0.75rem 1rem;
 }
 
-.form-control:focus { border-color: #CC9900; }
+.form-control:focus { border-color: rgb(19, 50, 150);; }
 
 .tm-form-description { margin-top: 30px; }
 .tm-contact-form { padding-top: 20px; }
@@ -337,8 +346,8 @@ p { line-height: 1.9; }
 	#tmNavbar .navbar-nav .nav-item+.nav-item { margin-left: 0; }
 	.navbar-toggler {
 		background: white;
-		border-color: #cc9900;
-		color: #cc9900;
+		border-color: rgb(19, 50, 150);;
+		color: rgb(19, 50, 150);;
 		display: block;
 		margin-left: auto;
 		margin-right: 0;
